@@ -1,0 +1,348 @@
+Archive Project report for xram_sdram_vector
+Wed Feb 15 09:13:25 2023
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Wed Feb 15 09:13:25 2023 ;
+; Revision Name          ; xram_sdram_vector                     ;
+; Top-level Entity Name  ; de10lite_xram_sdram                   ;
+; Family                 ; MAX 10                                ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Custom' contains:
+    Info: Programming output files
+    Info: Automatically detected source files
+    Info: Project source and settings files
+Warning: Hierarchical Platform Designer systems and custom IP components(_hw.tcl and associated files) are not archived by the Quartus Archiver
+Info: Archive will store files relative to the closest common parent directory
+Info (13213): Using common directory C:/intelFPGAprojects/FPGArduinoZac_restored/
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'D:/FPGArduinoZac.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'xram_sdram_vector.archive.rpt'
+Info (23030): Evaluation of Tcl script c:/intelfpga_lite/18.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 2 warnings
+    Info: Peak virtual memory: 4915 megabytes
+    Info: Processing ended: Wed Feb 15 09:13:25 2023
+    Info: Elapsed time: 00:00:13
+    Info: Total CPU time (on all processors): 00:00:06
+
+
++-------------------------------------------------------------------------------------------------------------+
+; Files Archived                                                                                              ;
++-------------------------------------------------------------------------------------------------------------+
+; File Name                                                                                                   ;
++-------------------------------------------------------------------------------------------------------------+
+; ../../../../altera/chip/cyclone5/dvi_lvds.vhd                                                               ;
+; ../../../../altera/de10lite/clocks/clk_50M_25M_125MP_125MN_100M_83M33.vhd                                   ;
+; ../../../../altera/de10lite/clocks/clk_50M_25M_250M_75M.vhd                                                 ;
+; ../../../../altera/de10lite/top/top_de10lite_xram_sdram_vector.vhd                                          ;
+; ../../../../altera/ffm/clocks/clk_125p_125n_25_75_100.vhd                                                   ;
+; ../../../../altera/ffm/clocks/clk_148M44p_148M44n_29M69_79M16_98M96.vhd                                     ;
+; ../../../../altera/ffm/clocks/clk_250_25_75_100.vhd                                                         ;
+; ../../../../altera/ffm/top/top_xram_sdram_lc_dvi.vhd                                                        ;
+; ../../../../cpu/alu.vhd                                                                                     ;
+; ../../../../cpu/cache.vhd                                                                                   ;
+; ../../../../cpu/debug.vhd                                                                                   ;
+; ../../../../cpu/defs_f32c.vhd                                                                               ;
+; ../../../../cpu/defs_mi32.vhd                                                                               ;
+; ../../../../cpu/defs_rv32.vhd                                                                               ;
+; ../../../../cpu/idecode_mi32.vhd                                                                            ;
+; ../../../../cpu/idecode_rv32.vhd                                                                            ;
+; ../../../../cpu/loadalign.vhd                                                                               ;
+; ../../../../cpu/mul_iter.vhd                                                                                ;
+; ../../../../cpu/pipeline.vhd                                                                                ;
+; ../../../../cpu/shift.vhd                                                                                   ;
+; ../../../../generic/acram_emu.vhd                                                                           ;
+; ../../../../generic/bootloader/boot_rom_mi32el_empty.vhd                                                    ;
+; ../../../../generic/bootloader/boot_sio_mi32eb.vhd                                                          ;
+; ../../../../generic/bootloader/boot_sio_mi32el.vhd                                                          ;
+; ../../../../generic/bootloader/boot_sio_rv32el.vhd                                                          ;
+; ../../../../generic/bootloader/defs_bootblock1k.vhd                                                         ;
+; ../../../../generic/bptrace.vhd                                                                             ;
+; ../../../../generic/bram.vhd                                                                                ;
+; ../../../../generic/bram_true2p_1clk.vhd                                                                    ;
+; ../../../../generic/bram_true2p_2clk.vhd                                                                    ;
+; ../../../../generic/bram_video.vhd                                                                          ;
+; ../../../../generic/glue_xram_vector.vhd                                                                    ;
+; ../../../../generic/hdmi_out.vhd                                                                            ;
+; ../../../../generic/reg1w2r.vhd                                                                             ;
+; ../../../../soc/acram.vhd                                                                                   ;
+; ../../../../soc/axi_pack.vhd                                                                                ;
+; ../../../../soc/axi_read.vhd                                                                                ;
+; ../../../../soc/axiram.vhd                                                                                  ;
+; ../../../../soc/cvbs.vhd                                                                                    ;
+; ../../../../soc/dacpwm.vhd                                                                                  ;
+; ../../../../soc/fb.vhd                                                                                      ;
+; ../../../../soc/fm/bram_rds.vhd                                                                             ;
+; ../../../../soc/fm/fir.vhd                                                                                  ;
+; ../../../../soc/fm/fm.vhd                                                                                   ;
+; ../../../../soc/fm/fmgen.vhd                                                                                ;
+; ../../../../soc/fm/lowpass.vhd                                                                              ;
+; ../../../../soc/fm/message.vhd                                                                              ;
+; ../../../../soc/fm/rds.vhd                                                                                  ;
+; ../../../../soc/gpio.vhd                                                                                    ;
+; ../../../../soc/i2s.vhd                                                                                     ;
+; ../../../../soc/pcm.vhd                                                                                     ;
+; ../../../../soc/pid/ctrlpid.vhd                                                                             ;
+; ../../../../soc/pid/ctrlpid_v.v                                                                             ;
+; ../../../../soc/pid/pid.vhd                                                                                 ;
+; ../../../../soc/pid/rotary_decoder.vhd                                                                      ;
+; ../../../../soc/pid/rotary_decoder_v.v                                                                      ;
+; ../../../../soc/pid/simotor.vhd                                                                             ;
+; ../../../../soc/pid/simotor_v.v                                                                             ;
+; ../../../../soc/ps2.vhd                                                                                     ;
+; ../../../../soc/ram_emu.vhd                                                                                 ;
+; ../../../../soc/sdram.vhd                                                                                   ;
+; ../../../../soc/sdram32.vhd                                                                                 ;
+; ../../../../soc/sdram_mz.vhd                                                                                ;
+; ../../../../soc/sdram_mz_wrap.vhd                                                                           ;
+; ../../../../soc/sdram_pack.vhd                                                                              ;
+; ../../../../soc/sigmadelta.vhd                                                                              ;
+; ../../../../soc/sio.vhd                                                                                     ;
+; ../../../../soc/spdif_tx.vhd                                                                                ;
+; ../../../../soc/spi.vhd                                                                                     ;
+; ../../../../soc/sram.vhd                                                                                    ;
+; ../../../../soc/sram8.vhd                                                                                   ;
+; ../../../../soc/sram_pack.vhd                                                                               ;
+; ../../../../soc/sram_refresh.vhd                                                                            ;
+; ../../../../soc/synth.vhd                                                                                   ;
+; ../../../../soc/timer.vhd                                                                                   ;
+; ../../../../soc/usb11_phy/usb_phy.vhd                                                                       ;
+; ../../../../soc/usb11_phy/usb_rx_phy_48MHz.vhd                                                              ;
+; ../../../../soc/usb11_phy/usb_rx_phy_emard.vhd                                                              ;
+; ../../../../soc/usb11_phy/usb_tx_phy.vhd                                                                    ;
+; ../../../../soc/usb_serial/usb_control.vhd                                                                  ;
+; ../../../../soc/usb_serial/usb_init.vhd                                                                     ;
+; ../../../../soc/usb_serial/usb_packet.vhd                                                                   ;
+; ../../../../soc/usb_serial/usb_serial.vhd                                                                   ;
+; ../../../../soc/usb_serial/usb_transact.vhd                                                                 ;
+; ../../../../soc/usb_serial/usbsio.vhd                                                                       ;
+; ../../../../soc/vector/axi_vector_dma.vhd                                                                   ;
+; ../../../../soc/vector/f32c_vector_dma.vhd                                                                  ;
+; ../../../../soc/vector/fpu/add_sub/add_sub27_arch.vhd                                                       ;
+; ../../../../soc/vector/fpu/add_sub/except_arch.vhd                                                          ;
+; ../../../../soc/vector/fpu/add_sub/fpu_arch.vhd                                                             ;
+; ../../../../soc/vector/fpu/add_sub/post_norm_arch.vhd                                                       ;
+; ../../../../soc/vector/fpu/add_sub/pre_norm_arch.vhd                                                        ;
+; ../../../../soc/vector/fpu/add_sub_emiraga/add_sub_emiraga.vhd                                              ;
+; ../../../../soc/vector/fpu/add_sub_emiraga/ieee754-verilog/src/config.py                                    ;
+; ../../../../soc/vector/fpu/add_sub_emiraga/ieee754-verilog/src/defines.v                                    ;
+; ../../../../soc/vector/fpu/add_sub_emiraga/ieee754-verilog/src/generate.py                                  ;
+; ../../../../soc/vector/fpu/add_sub_emiraga/ieee754-verilog/src/ieee.v                                       ;
+; ../../../../soc/vector/fpu/add_sub_emiraga/ieee754-verilog/src/ieee_adder.v                                 ;
+; ../../../../soc/vector/fpu/add_sub_emiraga/ieee754-verilog/src/parselib.py                                  ;
+; ../../../../soc/vector/fpu/float_divide_goldschmidt.vhd                                                     ;
+; ../../../../soc/vector/fpu/mul/common/fpnormalize_fpnormalize.vhd                                           ;
+; ../../../../soc/vector/fpu/mul/common/fpround_fpround.vhd                                                   ;
+; ../../../../soc/vector/fpu/mul/common/packfp_packfp.vhd                                                     ;
+; ../../../../soc/vector/fpu/mul/common/unpackfp_unpackfp.vhd                                                 ;
+; ../../../../soc/vector/fpu/mul/multiplier/fpmul_pipeline.vhd                                                ;
+; ../../../../soc/vector/fpu/mul/multiplier/fpmul_stage1_struct.vhd                                           ;
+; ../../../../soc/vector/fpu/mul/multiplier/fpmul_stage2_struct.vhd                                           ;
+; ../../../../soc/vector/fpu/mul/multiplier/fpmul_stage3_struct.vhd                                           ;
+; ../../../../soc/vector/fpu/mul/multiplier/fpmul_stage4_struct.vhd                                           ;
+; ../../../../soc/vector/vector.vhd                                                                           ;
+; ../../../../soc/vgahdmi/compositing2_fifo.vhd                                                               ;
+; ../../../../soc/vgahdmi/font8x8_xark.vhd                                                                    ;
+; ../../../../soc/vgahdmi/font8x16_xark.vhd                                                                   ;
+; ../../../../soc/vgahdmi/font_block_pack.vhd                                                                 ;
+; ../../../../soc/vgahdmi/i2c_sender_adv7513.vhd                                                              ;
+; ../../../../soc/vgahdmi/ledstrip.vhd                                                                        ;
+; ../../../../soc/vgahdmi/pulse_counter.vhd                                                                   ;
+; ../../../../soc/vgahdmi/TMDS_encoder.vhd                                                                    ;
+; ../../../../soc/vgahdmi/tv.vhd                                                                              ;
+; ../../../../soc/vgahdmi/vga.vhd                                                                             ;
+; ../../../../soc/vgahdmi/vga2dvid.vhd                                                                        ;
+; ../../../../soc/vgahdmi/vga2lcd.vhd                                                                         ;
+; ../../../../soc/vgahdmi/vga2lcd35.vhd                                                                       ;
+; ../../../../soc/vgahdmi/VGA_textmode.vhd                                                                    ;
+; ../../../../soc/vgahdmi/VGA_textmode_bram.vhd                                                               ;
+; ../../../../soc/vgahdmi/VGA_textmode_font_bram8.vhd                                                         ;
+; ../../../../soc/vgahdmi/video_cache_d.vhd                                                                   ;
+; ../../../../soc/vgahdmi/video_cache_i.vhd                                                                   ;
+; ../../../../soc/vgahdmi/video_mode_pack.vhd                                                                 ;
+; ../../../../soc/vgahdmi/videofifo.vhd                                                                       ;
+; ../../../../soc/vgahdmi/ws2812b.vhd                                                                         ;
+; assignment_defaults.qdf                                                                                     ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/altera/chip/cyclone5/dvi_lvds.vhd                               ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/altera/de10lite/clocks/clk_50M_25M_125MP_125MN_100M_83M33.vhd   ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/altera/de10lite/clocks/clk_50M_25M_250M_75M.vhd                 ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/altera/de10lite/top/top_de10lite_xram_sdram_vector.vhd          ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/altera/ffm/clocks/clk_125p_125n_25_75_100.vhd                   ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/altera/ffm/clocks/clk_148M44p_148M44n_29M69_79M16_98M96.vhd     ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/altera/ffm/clocks/clk_250_25_75_100.vhd                         ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/altera/ffm/top/top_xram_sdram_lc_dvi.vhd                        ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/cpu/alu.vhd                                                     ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/cpu/cache.vhd                                                   ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/cpu/debug.vhd                                                   ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/cpu/defs_f32c.vhd                                               ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/cpu/defs_mi32.vhd                                               ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/cpu/defs_rv32.vhd                                               ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/cpu/idecode_mi32.vhd                                            ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/cpu/idecode_rv32.vhd                                            ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/cpu/loadalign.vhd                                               ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/cpu/mul_iter.vhd                                                ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/cpu/pipeline.vhd                                                ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/cpu/shift.vhd                                                   ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/generic/acram_emu.vhd                                           ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/generic/bootloader/boot_rom_mi32el_empty.vhd                    ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/generic/bootloader/boot_sio_mi32eb.vhd                          ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/generic/bootloader/boot_sio_mi32el.vhd                          ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/generic/bootloader/boot_sio_rv32el.vhd                          ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/generic/bootloader/defs_bootblock1k.vhd                         ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/generic/bptrace.vhd                                             ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/generic/bram.vhd                                                ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/generic/bram_true2p_1clk.vhd                                    ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/generic/bram_true2p_2clk.vhd                                    ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/generic/bram_video.vhd                                          ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/generic/glue_xram_vector.vhd                                    ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/generic/hdmi_out.vhd                                            ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/generic/reg1w2r.vhd                                             ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/acram.vhd                                                   ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/axi_pack.vhd                                                ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/axi_read.vhd                                                ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/axiram.vhd                                                  ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/cvbs.vhd                                                    ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/dacpwm.vhd                                                  ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/fb.vhd                                                      ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/fm/bram_rds.vhd                                             ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/fm/fir.vhd                                                  ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/fm/fm.vhd                                                   ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/fm/fmgen.vhd                                                ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/fm/lowpass.vhd                                              ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/fm/message.vhd                                              ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/fm/rds.vhd                                                  ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/gpio.vhd                                                    ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/i2s.vhd                                                     ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/pcm.vhd                                                     ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/pid/ctrlpid.vhd                                             ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/pid/ctrlpid_v.v                                             ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/pid/pid.vhd                                                 ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/pid/rotary_decoder.vhd                                      ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/pid/rotary_decoder_v.v                                      ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/pid/simotor.vhd                                             ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/pid/simotor_v.v                                             ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/ps2.vhd                                                     ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/ram_emu.vhd                                                 ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/sdram.vhd                                                   ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/sdram32.vhd                                                 ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/sdram_mz.vhd                                                ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/sdram_mz_wrap.vhd                                           ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/sdram_pack.vhd                                              ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/sigmadelta.vhd                                              ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/sio.vhd                                                     ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/spdif_tx.vhd                                                ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/spi.vhd                                                     ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/sram.vhd                                                    ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/sram8.vhd                                                   ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/sram_pack.vhd                                               ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/sram_refresh.vhd                                            ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/synth.vhd                                                   ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/timer.vhd                                                   ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/usb11_phy/usb_phy.vhd                                       ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/usb11_phy/usb_rx_phy_48MHz.vhd                              ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/usb11_phy/usb_rx_phy_emard.vhd                              ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/usb11_phy/usb_tx_phy.vhd                                    ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/usb_serial/usb_control.vhd                                  ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/usb_serial/usb_init.vhd                                     ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/usb_serial/usb_packet.vhd                                   ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/usb_serial/usb_serial.vhd                                   ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/usb_serial/usb_transact.vhd                                 ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/usb_serial/usbsio.vhd                                       ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vector/axi_vector_dma.vhd                                   ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vector/f32c_vector_dma.vhd                                  ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vector/fpu/add_sub/add_sub27_arch.vhd                       ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vector/fpu/add_sub/except_arch.vhd                          ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vector/fpu/add_sub/fpu_arch.vhd                             ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vector/fpu/add_sub/post_norm_arch.vhd                       ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vector/fpu/add_sub/pre_norm_arch.vhd                        ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vector/fpu/add_sub_emiraga/add_sub_emiraga.vhd              ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vector/fpu/add_sub_emiraga/ieee754-verilog/src/config.py    ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vector/fpu/add_sub_emiraga/ieee754-verilog/src/defines.v    ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vector/fpu/add_sub_emiraga/ieee754-verilog/src/generate.py  ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vector/fpu/add_sub_emiraga/ieee754-verilog/src/ieee.v       ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vector/fpu/add_sub_emiraga/ieee754-verilog/src/ieee_adder.v ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vector/fpu/add_sub_emiraga/ieee754-verilog/src/parselib.py  ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vector/fpu/float_divide_goldschmidt.vhd                     ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vector/fpu/mul/common/fpnormalize_fpnormalize.vhd           ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vector/fpu/mul/common/fpround_fpround.vhd                   ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vector/fpu/mul/common/packfp_packfp.vhd                     ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vector/fpu/mul/common/unpackfp_unpackfp.vhd                 ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vector/fpu/mul/multiplier/fpmul_pipeline.vhd                ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vector/fpu/mul/multiplier/fpmul_stage1_struct.vhd           ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vector/fpu/mul/multiplier/fpmul_stage2_struct.vhd           ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vector/fpu/mul/multiplier/fpmul_stage3_struct.vhd           ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vector/fpu/mul/multiplier/fpmul_stage4_struct.vhd           ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vector/vector.vhd                                           ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vgahdmi/compositing2_fifo.vhd                               ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vgahdmi/font8x8_xark.vhd                                    ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vgahdmi/font8x16_xark.vhd                                   ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vgahdmi/font_block_pack.vhd                                 ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vgahdmi/i2c_sender_adv7513.vhd                              ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vgahdmi/ledstrip.vhd                                        ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vgahdmi/pulse_counter.vhd                                   ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vgahdmi/TMDS_encoder.vhd                                    ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vgahdmi/tv.vhd                                              ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vgahdmi/vga.vhd                                             ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vgahdmi/vga2dvid.vhd                                        ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vgahdmi/vga2lcd.vhd                                         ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vgahdmi/vga2lcd35.vhd                                       ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vgahdmi/VGA_textmode.vhd                                    ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vgahdmi/VGA_textmode_bram.vhd                               ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vgahdmi/VGA_textmode_font_bram8.vhd                         ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vgahdmi/video_cache_d.vhd                                   ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vgahdmi/video_cache_i.vhd                                   ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vgahdmi/video_mode_pack.vhd                                 ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vgahdmi/videofifo.vhd                                       ;
+; C:/intelFPGAprojects/FPGArduinoZac_restored/soc/vgahdmi/ws2812b.vhd                                         ;
+; db/xram_sdram_vector.cmp.rdb                                                                                ;
+; project.qsf                                                                                                 ;
+; project_assignment_defaults.qdf                                                                             ;
+; xram_sdram_vector.jdi                                                                                       ;
+; xram_sdram_vector.pof                                                                                       ;
+; xram_sdram_vector.qpf                                                                                       ;
+; xram_sdram_vector.qsf                                                                                       ;
+; xram_sdram_vector.sld                                                                                       ;
+; xram_sdram_vector.sof                                                                                       ;
++-------------------------------------------------------------------------------------------------------------+
+
+

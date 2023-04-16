@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Tue Feb 14 14:29:21 2023
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : xram_sdram_vector
+Top-level Entity Name : de10lite_xram_sdram
+Family : MAX 10
+Total logic elements : 32,807
+    Total combinational functions : 24,816
+    Dedicated logic registers : 13,527
+Total registers : 13527
+Total pins : 195
+Total virtual pins : 0
+Total memory bits : 644,096
+Embedded Multiplier 9-bit elements : 79
+Total PLLs : 1
+UFM blocks : 0
+ADC blocks : 0
